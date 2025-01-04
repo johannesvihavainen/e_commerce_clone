@@ -11,11 +11,11 @@
 </head>
 
 <body>
-    <div class="nav-bar">
+    <div class="nav-bar" id="home">
         <ul class="nav-bar-links">
-            <li><a class="link" href="#">home</a></li>
-            <li><a class="link" href="#">shop</a></li>
-            <li><a class="link" href="#">contact us</a></li>
+            <li><a class="link" href="#home">home</a></li>
+            <li><a class="link" href="#shop">shop</a></li>
+            <li><a class="link" href="#contact">contact us</a></li>
             <li><button class="link">Cart <span class="cart-counter">(0)</span></button></li>
         </ul>
     </div>
@@ -61,7 +61,7 @@
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
 
-    <div class="content">
+    <div class="content" id="shop">
         <div class="content-header">
             <h2>The best used cars for the greatest price known to man.</h2>
             <p>Welcome to Used Cars Network, your trusted destination for finding high-quality used vehicles at
@@ -73,58 +73,61 @@
                 buying journey designed with your needs in mind.</p>
         </div>
 
-        <div class="grid-container">
+        <div class="shop">
             <div class="search-stock">
                 <p>Search for a car in our inventory..</p>
                 <input class="search-car" type="text" id="search" name="search" placeholder="Search here..">
             </div>
-            <div class="item-wrapper">
-                <img src="shop_car_photos/nissan_skyline.jpg" alt="">
-                <div class="info-container">
-                    <p>Nissan Skyline</p>
-                    <div class="price-and-button">
-                        <p>Price: $4999</p>
-                        <button class="add-to-cart">Add To Cart</button>
+            <div class="grid-container">
+                <div class="item-wrapper item-1">
+                    <img src="shop_car_photos/nissan_skyline.jpg" alt="">
+                    <div class="info-container">
+                        <p>Nissan Skyline</p>
+                        <div class="price-and-button">
+                            <p>Price: $4999</p>
+                            <button class="add-to-cart">Add To Cart</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="item-wrapper">
-                <img src="shop_car_photos/dodge_challenger.jpg" alt="">
-                <div class="info-container">
-                    <p>Dodge Challenger</p>
-                    <div class="price-and-button">
-                        <p>Price: $5999</p>
-                        <button class="add-to-cart">Add To Cart</button>
+                <div class="item-wrapper item-2">
+                    <img src="shop_car_photos/dodge_challenger.jpg" alt="">
+                    <div class="info-container">
+                        <p>Dodge Challenger</p>
+                        <div class="price-and-button">
+                            <p>Price: $5999</p>
+                            <button class="add-to-cart">Add To Cart</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="item-wrapper">
-                <img src="shop_car_photos/toyota_supra.jpg" alt="">
-                <div class="info-container">
-                    <p>Toyota Supra</p>
-                    <div class="price-and-button">
-                        <p>Price: $3200</p>
-                        <button class="add-to-cart">Add To Cart</button>
+                <div class="item-wrapper item-3">
+                    <img src="shop_car_photos/toyota_supra.jpg" alt="">
+                    <div class="info-container">
+                        <p>Toyota Supra</p>
+                        <div class="price-and-button">
+                            <p>Price: $3200</p>
+                            <button class="add-to-cart">Add To Cart</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="item-wrapper">
-                <img src="shop_car_photos/land_rover.jpg" alt="">
-                <div class="info-container">
-                    <p>Land Rover</p>
-                    <div class="price-and-button">
-                        <p>Price: $2999</p>
-                        <button class="add-to-cart">Add To Cart</button>
+                <div class="item-wrapper item-4">
+                    <img src="shop_car_photos/land_rover.jpg" alt="">
+                    <div class="info-container">
+                        <p>Land Rover</p>
+                        <div class="price-and-button">
+                            <p>Price: $2999</p>
+                            <button class="add-to-cart">Add To Cart</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="contact-section">
+
+    <div class="contact-section" id="contact">
         <div class="contact-header">
             <h3>Need to contact us for more information?</h3>
             <p>Give us a holler! <span><img src="icons/phone.png" alt=""></span></p>
