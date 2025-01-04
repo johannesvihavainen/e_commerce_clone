@@ -389,20 +389,23 @@ footer {
 }
 
 @media (min-width: 1440px) {
-.nav-bar {
-    height: 100px;
-}
-.link {
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .nav-bar {
+        height: 100px;
+    }
+
+    .link {
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(4, 1fr); /* Adjust based on your design */
+        grid-template-columns: repeat(4, 1fr);
+        /* Adjust based on your design */
         gap: 50px;
         align-items: center;
         justify-items: center;
@@ -411,14 +414,75 @@ footer {
     }
 
     .item-wrapper img {
-        width: 400px; /* Increase image size for large screens */
+        width: 400px;
+        /* Increase image size for large screens */
         height: 350px;
     }
 
     .carousel-photos {
         height: 625px;
     }
+
     .text-overlay {
         font-size: 5rem;
+    }
+
+    .content-header {
+
+        width: 1000px;
+
+    }
+
+    .content {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-stock {
+        width: 1000px;
+    }
+
+    .grid-container {
+        align-items: center;
+        justify-content: center;
+        width: 1000px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        height: 100%;
+    }
+
+    .item-wrapper img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-header {
+        width: 1000px;
+    }
+    .form-container {
+        width: 1000px;
+        margin-top: 40px;
     }
 }
