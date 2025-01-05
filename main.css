@@ -478,9 +478,11 @@ footer {
         align-items: center;
         justify-content: center;
     }
+
     .contact-header {
         width: 1000px;
     }
+
     .form-container {
         width: 1000px;
         margin-top: 40px;
