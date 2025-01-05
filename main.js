@@ -7,9 +7,14 @@ var gridContainer = document.querySelector('.grid-container');
 
 var addToCart = document.getElementsByClassName('add-to-cart');
 
-for(i = 0; i < addToCart.length; i++) {
+for (i = 0; i < addToCart.length; i++) {
     addToCart[i].addEventListener("click", function () {
-        console.log("btn was clicked")
+        updateCart();
+    })
+}
+
+for (i = 0; i < addToCart.length; i++) {
+    addToCart[i].addEventListener("touchend", function () {
         updateCart();
     })
 }
