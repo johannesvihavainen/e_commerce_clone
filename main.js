@@ -13,13 +13,6 @@ for (i = 0; i < addToCart.length; i++) {
     })
 }
 
-for (i = 0; i < addToCart.length; i++) {
-    addToCart[i].addEventListener("touchend", function () {
-        updateCart();
-    })
-}
-
-
 
 var cartCountTag = document.querySelector('.cart-counter');
 var cartCounter = 0;
